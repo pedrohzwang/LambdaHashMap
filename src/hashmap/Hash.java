@@ -10,6 +10,17 @@ public class Hash {
 		
 		Map<Product, Double> stock = new HashMap<>();
 		
+		/* HASHMAP
+		 * put(key, value) -> adicionar um elemento em uma chave
+		 * remove(key) -> remove um elemento
+		 * contains(key) -> verifica se ha uma chave na lista
+		 * get(key) -> retorna o valor de uma chave
+		 * clear() -> limpa um conjunto
+		 * size() -> retorna o valor de uma lista
+		 * keySet() -> retorna um set com as chaves contidas no map
+		 * values() -> retorna um Collection<V>
+		 */
+		
 		Product p1 = new Product("Tv", 900.0);
 		Product p2 = new Product("Notebook", 1200.0);
 		Product p3 = new Product("Tablet", 400.0);
